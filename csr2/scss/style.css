@@ -13,7 +13,6 @@ header {
   margin: auto;
   position: relative;
 }
-
 header .disk-left {
   width: 100px;
   padding: 5rem 3rem;
@@ -24,13 +23,11 @@ header .disk-left {
   top: 140px;
   left: 0;
 }
-
 @media (max-width: 600px) {
   header .disk-left {
     display: none;
   }
 }
-
 header .nav {
   max-width: 1200px;
   padding: 1rem 0;
@@ -42,20 +39,17 @@ header .nav {
   flex-wrap: wrap;
   position: relative;
 }
-
 @media (max-width: 1100px) {
   header .nav {
     padding: 0.8rem;
     position: relative;
   }
 }
-
 header .nav ul.start {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
-
 header .nav ul.start li {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +57,6 @@ header .nav ul.start li {
   justify-content: center;
   align-items: center;
 }
-
 header .nav ul.start li .myteam {
   width: 100%;
   padding: 1.5rem 7rem;
@@ -71,7 +64,6 @@ header .nav ul.start li .myteam {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 header .nav ul.About {
   list-style: none;
   display: flex;
@@ -81,12 +73,10 @@ header .nav ul.About {
   align-items: center;
   position: relative;
 }
-
 @media (max-width: 760px) {
   header .nav ul.About {
     display: none;
   }
-
   header .nav ul.About.active {
     display: flex;
     flex-direction: column;
@@ -101,13 +91,11 @@ header .nav ul.About {
     box-shadow: 1px 1px 7px #002529;
   }
 }
-
 header .nav ul.About li {
   list-style: none;
   align-items: center;
   text-align: center;
 }
-
 header .nav ul.About li a {
   color: white;
   margin: 0 1rem;
@@ -120,12 +108,10 @@ header .nav ul.About li a {
   letter-spacing: 1px;
   transition-duration: 0.5s;
 }
-
 header .nav ul.About li a:hover {
   transition-duration: 0.6s;
   color: #F67E7E;
 }
-
 header .nav ul.About li .button {
   padding: 0.6rem 2rem;
   border-radius: 28px;
@@ -138,7 +124,6 @@ header .nav ul.About li .button {
   letter-spacing: 1px;
   transition-duration: 0.6s;
 }
-
 header .nav ul.About li .button:hover {
   background-color: white;
   color: #014E56;
@@ -146,19 +131,16 @@ header .nav ul.About li .button:hover {
   font-weight: 700;
   cursor: pointer;
 }
-
 header .nav ul.hamburger {
   display: none;
   list-style: none;
 }
-
 @media (max-width: 760px) {
   header .nav ul.hamburger {
     display: flex;
     flex-wrap: wrap;
   }
 }
-
 header .nav ul.hamburger .buger {
   width: 35px;
   height: 35px;
@@ -169,11 +151,9 @@ header .nav ul.hamburger .buger {
   position: relative;
   list-style: none;
 }
-
 header .nav ul.hamburger .buger .checkbox {
   display: none;
 }
-
 header .nav ul.hamburger .buger span {
   width: 100%;
   height: 4px;
@@ -182,27 +162,23 @@ header .nav ul.hamburger .buger span {
   border-radius: 2px;
   transition-duration: 0.5s;
 }
-
-header .nav ul.hamburger .buger .checkbox:checked~span.first {
+header .nav ul.hamburger .buger .checkbox:checked ~ span.first {
   transform: rotate(45deg);
   transform-origin: top left;
   position: absolute;
   top: 6px;
   left: 6px;
 }
-
-header .nav ul.hamburger .buger .checkbox:checked~span.third {
+header .nav ul.hamburger .buger .checkbox:checked ~ span.third {
   transform: rotate(-45deg);
   transform-origin: top right;
   position: absolute;
   top: 6px;
   right: 6px;
 }
-
-header .nav ul.hamburger .buger .checkbox:checked~span.secend {
+header .nav ul.hamburger .buger .checkbox:checked ~ span.secend {
   display: none;
 }
-
 header .navbar__wrapper {
   max-width: 1200px;
   padding: 7rem 2rem 8rem;
@@ -212,7 +188,6 @@ header .navbar__wrapper {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 @media (max-width: 1175px) {
   header .navbar__wrapper {
     width: 100%;
@@ -220,19 +195,16 @@ header .navbar__wrapper {
     flex-direction: column;
   }
 }
-
 @media (max-width: 600px) {
   header .navbar__wrapper {
     padding: 4rem 0.5rem 0;
   }
 }
-
 @media (max-width: 400px) {
   header .navbar__wrapper {
     padding: 4rem 0 0 0;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item {
   width: 50%;
   margin: auto;
@@ -240,7 +212,6 @@ header .navbar__wrapper .navbar__wrapper-item {
   display: flex;
   flex-direction: column;
 }
-
 @media (max-width: 1175px) {
   header .navbar__wrapper .navbar__wrapper-item {
     display: flex;
@@ -251,7 +222,6 @@ header .navbar__wrapper .navbar__wrapper-item {
     justify-content: space-between;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item h1 {
   font-size: 70px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -261,7 +231,6 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
   padding: 0 0 0 3rem;
   color: white;
 }
-
 @media (max-width: 1175px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     text-align: center;
@@ -270,7 +239,6 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
     padding: 0;
   }
 }
-
 @media (max-width: 600px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     text-align: center;
@@ -280,7 +248,6 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
     padding: 0;
   }
 }
-
 @media (max-width: 400px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     text-align: center;
@@ -290,7 +257,6 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
     padding: 0;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item h2 {
   font-size: 28px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -300,7 +266,6 @@ header .navbar__wrapper .navbar__wrapper-item h2 {
   color: #F67E7E;
   letter-spacing: 1.5px;
 }
-
 @media (max-width: 1175px) {
   header .navbar__wrapper .navbar__wrapper-item h2 {
     text-align: center;
@@ -309,7 +274,6 @@ header .navbar__wrapper .navbar__wrapper-item h2 {
     justify-content: center;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item .itemm {
   width: 90%;
   min-height: 70px;
@@ -320,7 +284,6 @@ header .navbar__wrapper .navbar__wrapper-item .itemm {
   text-align: center;
   justify-content: center;
 }
-
 @media (max-width: 640px) {
   header .navbar__wrapper .navbar__wrapper-item .itemm {
     width: 100%;
@@ -331,7 +294,6 @@ header .navbar__wrapper .navbar__wrapper-item .itemm {
     justify-content: center;
   }
 }
-
 @media (max-width: 600px) {
   header .navbar__wrapper .navbar__wrapper-item .itemm {
     width: 90%;
@@ -340,7 +302,6 @@ header .navbar__wrapper .navbar__wrapper-item .itemm {
     justify-content: space-between;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item .itemm .item {
   width: 100px;
   padding: 2rem;
@@ -349,7 +310,6 @@ header .navbar__wrapper .navbar__wrapper-item .itemm .item {
   background-size: contain;
   background-position-x: center;
 }
-
 header .navbar__wrapper .navbar__wrapper-item .itemm .icon {
   width: 100px;
   padding: 2rem;
@@ -358,7 +318,6 @@ header .navbar__wrapper .navbar__wrapper-item .itemm .icon {
   background-size: contain;
   background-position-x: center;
 }
-
 header .navbar__wrapper .navbar__wrapper-item .itemm .image {
   width: 100px;
   padding: 2rem;
@@ -367,13 +326,11 @@ header .navbar__wrapper .navbar__wrapper-item .itemm .image {
   background-size: contain;
   background-position-x: center;
 }
-
 header .navbar__wrapper .navbar__wrapper-item .itemm .write {
   width: 370px;
   padding: 0.2rem 0.4rem;
   text-align: start;
 }
-
 @media (max-width: 400px) {
   header .navbar__wrapper .navbar__wrapper-item .itemm .write {
     width: 60%;
@@ -381,7 +338,6 @@ header .navbar__wrapper .navbar__wrapper-item .itemm .write {
     text-align: start;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item .itemm .write p {
   font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -389,19 +345,16 @@ header .navbar__wrapper .navbar__wrapper-item .itemm .write p {
   color: white;
   letter-spacing: 0.1px;
 }
-
 @media (max-width: 500px) {
   header .navbar__wrapper .navbar__wrapper-item .itemm .write p {
     font-size: 15px;
   }
 }
-
 @media (max-width: 400px) {
   header .navbar__wrapper .navbar__wrapper-item .itemm .write p {
     font-size: 12px;
   }
 }
-
 header .navbar__wrapper .input {
   width: 100%;
   min-height: 40px;
@@ -412,12 +365,10 @@ header .navbar__wrapper .input {
   outline: none;
   margin: 1rem 0;
 }
-
 header .navbar__wrapper .input:hover {
   transition-duration: 0.2s;
   border-bottom: 2.5px solid #F67E7E;
 }
-
 header .navbar__wrapper .input::-moz-placeholder {
   font-size: 13px;
   color: #c1f9f8;
@@ -427,7 +378,6 @@ header .navbar__wrapper .input::-moz-placeholder {
   font-weight: 500;
   transition-duration: 0.2s;
 }
-
 header .navbar__wrapper .input::placeholder {
   font-size: 13px;
   color: #c1f9f8;
@@ -437,17 +387,14 @@ header .navbar__wrapper .input::placeholder {
   font-weight: 500;
   transition-duration: 0.2s;
 }
-
 header .navbar__wrapper .input::-moz-placeholder:hover {
   transition-duration: 0.2s;
   color: #F67E7E;
 }
-
 header .navbar__wrapper .input::placeholder:hover {
   transition-duration: 0.2s;
   color: #F67E7E;
 }
-
 header .navbar__wrapper .textarea {
   width: 100%;
   min-height: 40px;
@@ -458,12 +405,10 @@ header .navbar__wrapper .textarea {
   outline: none;
   transition-duration: 0.2s;
 }
-
 header .navbar__wrapper .textarea:hover {
   transition-duration: 0.2s;
   border-bottom: 2.5px solid #F67E7E;
 }
-
 header .navbar__wrapper .textarea::-moz-placeholder {
   font-size: 13px;
   color: #c1f9f8;
@@ -472,7 +417,6 @@ header .navbar__wrapper .textarea::-moz-placeholder {
   font-style: italic;
   font-weight: 500;
 }
-
 header .navbar__wrapper .textarea::placeholder {
   font-size: 13px;
   color: #c1f9f8;
@@ -481,7 +425,6 @@ header .navbar__wrapper .textarea::placeholder {
   font-style: italic;
   font-weight: 500;
 }
-
 header .navbar__wrapper .button {
   width: 200px;
   min-height: 40px;
@@ -501,7 +444,6 @@ header .navbar__wrapper .button {
   border: none;
   transition-duration: 0.9s;
 }
-
 header .navbar__wrapper .button:hover {
   transition-duration: 0.5s;
   background: none;
@@ -510,7 +452,6 @@ header .navbar__wrapper .button:hover {
   box-shadow: 0 0 10px 3px white;
   cursor: pointer;
 }
-
 header .disk-right {
   width: 100px;
   padding: 6rem 3rem;
@@ -522,7 +463,6 @@ header .disk-right {
   bottom: 0;
   right: 0;
 }
-
 @media (max-width: 400px) {
   header .disk-right {
     width: 100px;
@@ -536,14 +476,12 @@ header .disk-right {
   margin: auto;
   background-color: #002529;
 }
-
 .footer .footer__wrapper {
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper {
     width: 100%;
@@ -556,14 +494,12 @@ header .disk-right {
     flex-direction: column;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item {
   width: 50%;
   padding: 0.2rem 2rem;
   display: flex;
   flex-wrap: wrap;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item {
     width: 100%;
@@ -575,7 +511,6 @@ header .disk-right {
     flex-direction: column;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card {
   width: 50%;
   padding: 1.5rem 1rem 0 0;
@@ -583,14 +518,12 @@ header .disk-right {
   justify-content: center;
   flex-direction: column;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card {
     padding: 1rem 0 0;
     gap: 10px;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .myteam {
   width: 100px;
   padding: 1.5rem 5.5rem;
@@ -598,18 +531,15 @@ header .disk-right {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write {
   width: 200px;
   padding: 1rem 1rem 1rem 0;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write {
     padding: 0;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write a {
   text-decoration: none;
   padding: 0 1rem 0 0;
@@ -621,12 +551,10 @@ header .disk-right {
   text-align: left;
   transition-duration: 0.5s;
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write a:hover {
   transition-duration: 0.5s;
   color: #F67E7E;
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card p {
   color: #cfcfcf;
   padding: 0 4rem 0 0;
@@ -635,14 +563,12 @@ header .disk-right {
   letter-spacing: 0.1px;
   text-align: start;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card p {
     text-align: start;
     padding: 0;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm {
   width: 50%;
   justify-content: center;
@@ -654,7 +580,6 @@ header .disk-right {
   flex-direction: column;
   text-align: right;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-itemm {
     display: flex;
@@ -664,13 +589,11 @@ header .disk-right {
     justify-content: center;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm .form {
   width: 90%;
   justify-content: right;
   text-align: right;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-itemm .form {
     width: 100%;
@@ -679,25 +602,20 @@ header .disk-right {
     justify-content: center;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm i {
   font-size: 24px;
   padding: 0 0.3rem;
   transition-duration: 0.4s;
   color: white;
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm i:hover {
   color: #F67E7E;
   transition-duration: 0.2s;
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm p {
   font-size: 17px;
   color: rgb(192, 192, 192);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

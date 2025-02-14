@@ -13,7 +13,6 @@ header {
   margin: auto;
   position: relative;
 }
-
 header .nav {
   max-width: 1200px;
   padding: 1rem;
@@ -25,19 +24,16 @@ header .nav {
   flex-wrap: wrap;
   position: relative;
 }
-
 @media (max-width: 1100px) {
   header .nav {
     padding: 0.8rem;
   }
 }
-
 header .nav ul.start {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
-
 header .nav ul.start li {
   display: flex;
   flex-wrap: wrap;
@@ -45,7 +41,6 @@ header .nav ul.start li {
   justify-content: center;
   align-items: center;
 }
-
 header .nav ul.start li .myteam {
   width: 100%;
   padding: 1.5rem 7rem;
@@ -53,7 +48,6 @@ header .nav ul.start li .myteam {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 header .nav ul.About {
   list-style: none;
   display: flex;
@@ -62,12 +56,10 @@ header .nav ul.About {
   text-align: center;
   align-items: center;
 }
-
 @media (max-width: 760px) {
   header .nav ul.About {
     display: none;
   }
-
   header .nav ul.About.active {
     display: flex;
     flex-direction: column;
@@ -82,13 +74,11 @@ header .nav ul.About {
     box-shadow: 1px 1px 7px #002529;
   }
 }
-
 header .nav ul.About li {
   list-style: none;
   align-items: center;
   text-align: center;
 }
-
 header .nav ul.About li a {
   color: white;
   margin: 0 1rem;
@@ -101,12 +91,10 @@ header .nav ul.About li a {
   letter-spacing: 1px;
   transition-duration: 0.5s;
 }
-
 header .nav ul.About li a:hover {
   transition-duration: 0.6s;
   color: #F67E7E;
 }
-
 header .nav ul.About li .button {
   padding: 0.6rem 2rem;
   border-radius: 28px;
@@ -119,7 +107,6 @@ header .nav ul.About li .button {
   letter-spacing: 1px;
   transition-duration: 0.6s;
 }
-
 header .nav ul.About li .button:hover {
   background-color: white;
   color: #014E56;
@@ -128,19 +115,16 @@ header .nav ul.About li .button:hover {
   cursor: pointer;
   box-shadow: 0 0 10px 0.5px white;
 }
-
 header .nav ul.hamburger {
   display: none;
   list-style: none;
 }
-
 @media (max-width: 760px) {
   header .nav ul.hamburger {
     display: flex;
     flex-wrap: wrap;
   }
 }
-
 header .nav ul.hamburger .buger {
   width: 35px;
   height: 35px;
@@ -151,11 +135,9 @@ header .nav ul.hamburger .buger {
   position: relative;
   list-style: none;
 }
-
 header .nav ul.hamburger .buger .checkbox {
   display: none;
 }
-
 header .nav ul.hamburger .buger span {
   width: 100%;
   height: 4px;
@@ -164,34 +146,29 @@ header .nav ul.hamburger .buger span {
   border-radius: 2px;
   transition-duration: 0.5s;
 }
-
-header .nav ul.hamburger .buger .checkbox:checked~span.first {
+header .nav ul.hamburger .buger .checkbox:checked ~ span.first {
   transform: rotate(45deg);
   transform-origin: top left;
   position: absolute;
   top: 6px;
   left: 6px;
 }
-
-header .nav ul.hamburger .buger .checkbox:checked~span.third {
+header .nav ul.hamburger .buger .checkbox:checked ~ span.third {
   transform: rotate(-45deg);
   transform-origin: top right;
   position: absolute;
   top: 6px;
   right: 6px;
 }
-
-header .nav ul.hamburger .buger .checkbox:checked~span.secend {
+header .nav ul.hamburger .buger .checkbox:checked ~ span.secend {
   display: none;
 }
-
 header .navbar__wrapper {
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
-
 header .navbar__wrapper .navbar__wrapper-item {
   width: 50%;
   margin: auto;
@@ -199,21 +176,18 @@ header .navbar__wrapper .navbar__wrapper-item {
   min-height: 400px;
   padding: 1.5rem 3rem 0;
 }
-
 @media (max-width: 1200px) {
   header .navbar__wrapper .navbar__wrapper-item {
     width: 45%;
     padding: 1.4rem 0 0;
   }
 }
-
 @media (max-width: 1150px) {
   header .navbar__wrapper .navbar__wrapper-item {
     width: 40%;
     padding: 2rem 0rem;
   }
 }
-
 @media (max-width: 800px) {
   header .navbar__wrapper .navbar__wrapper-item {
     width: 90%;
@@ -223,19 +197,16 @@ header .navbar__wrapper .navbar__wrapper-item {
     padding: 2rem 1rem 1rem;
   }
 }
-
 @media (max-width: 689px) {
   header .navbar__wrapper .navbar__wrapper-item {
     width: 90%;
   }
 }
-
 @media (max-width: 500px) {
   header .navbar__wrapper .navbar__wrapper-item {
     padding: 0.5rem;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 90px;
@@ -246,14 +217,12 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
   letter-spacing: 1px;
   font-weight: 700;
 }
-
 @media (max-width: 1100px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     font-size: 63px;
     padding: 4rem 0 0 3.5rem;
   }
 }
-
 @media (max-width: 800px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     font-size: 90px;
@@ -261,28 +230,24 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
     text-align: center;
   }
 }
-
 @media (max-width: 689px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     font-size: 80px;
     text-align: center;
   }
 }
-
 @media (max-width: 630px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     font-size: 70px;
     text-align: center;
   }
 }
-
 @media (max-width: 500px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     font-size: 60px;
     text-align: center;
   }
 }
-
 @media (max-width: 478px) {
   header .navbar__wrapper .navbar__wrapper-item h1 {
     font-size: 55px;
@@ -290,11 +255,9 @@ header .navbar__wrapper .navbar__wrapper-item h1 {
     text-align: center;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item h1 span {
   color: #F67E7E;
 }
-
 header .navbar__wrapper .navbar__wrapper-item p {
   font-size: 22px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -303,28 +266,24 @@ header .navbar__wrapper .navbar__wrapper-item p {
   padding: 5.2rem 0 0 0;
   color: whitesmoke;
 }
-
 @media (max-width: 1200px) {
   header .navbar__wrapper .navbar__wrapper-item p {
     font-size: 18px;
     padding: 4rem 0 0 0;
   }
 }
-
 @media (max-width: 1150px) {
   header .navbar__wrapper .navbar__wrapper-item p {
     font-size: 18px;
     padding: 7rem 0 0 0;
   }
 }
-
 @media (max-width: 1000px) {
   header .navbar__wrapper .navbar__wrapper-item p {
     font-size: 16px;
     padding: 7rem 0 0 0;
   }
 }
-
 @media (max-width: 800px) {
   header .navbar__wrapper .navbar__wrapper-item p {
     padding: 1rem 0rem 0;
@@ -333,14 +292,12 @@ header .navbar__wrapper .navbar__wrapper-item p {
     letter-spacing: 2px;
   }
 }
-
 @media (max-width: 500px) {
   header .navbar__wrapper .navbar__wrapper-item p {
     font-size: 18px;
     text-align: center;
   }
 }
-
 @media (max-width: 478px) {
   header .navbar__wrapper .navbar__wrapper-item p {
     font-size: 20px;
@@ -349,11 +306,9 @@ header .navbar__wrapper .navbar__wrapper-item p {
     text-align: center;
   }
 }
-
 header .navbar__wrapper .navbar__wrapper-item span {
   border-bottom: 3px solid #79C8C7;
 }
-
 header .disk-left {
   width: 300px;
   padding: 7rem 4rem;
@@ -365,20 +320,17 @@ header .disk-left {
   margin: auto;
   left: 0;
 }
-
 @media (max-width: 1270px) {
   header .disk-left {
     width: 90%;
     padding: 6rem 3rem;
   }
 }
-
 @media (max-width: 810px) {
   header .disk-left {
     display: none;
   }
 }
-
 header .disk-bottom {
   width: 380px;
   padding: 4rem 4rem;
@@ -390,7 +342,6 @@ header .disk-bottom {
   top: 464px;
   left: 750px;
 }
-
 @media (max-width: 1255px) {
   header .disk-bottom {
     width: 350px;
@@ -399,7 +350,6 @@ header .disk-bottom {
     left: 500px;
   }
 }
-
 @media (max-width: 900px) {
   header .disk-bottom {
     width: 300px;
@@ -409,7 +359,6 @@ header .disk-bottom {
     left: 440px;
   }
 }
-
 @media (max-width: 800px) {
   header .disk-bottom {
     width: 340px;
@@ -419,7 +368,6 @@ header .disk-bottom {
     left: 240px;
   }
 }
-
 @media (max-width: 688px) {
   header .disk-bottom {
     width: 340px;
@@ -429,7 +377,6 @@ header .disk-bottom {
     background-position-x: center;
   }
 }
-
 @media (max-width: 580px) {
   header .disk-bottom {
     width: 340px;
@@ -439,7 +386,6 @@ header .disk-bottom {
     background-position-x: center;
   }
 }
-
 @media (max-width: 480px) {
   header .disk-bottom {
     width: 340px;
@@ -460,14 +406,12 @@ header .disk-bottom {
   background-color: #012F34;
   position: relative;
 }
-
 @media (max-width: 400px) {
   .aside {
     width: 100%;
     padding: 0;
   }
 }
-
 .aside .aside__wrapper {
   max-width: 1200px;
   display: flex;
@@ -477,7 +421,6 @@ header .disk-bottom {
   justify-content: center;
   position: relative;
 }
-
 @media (max-width: 1100px) {
   .aside .aside__wrapper {
     width: 100%;
@@ -485,7 +428,6 @@ header .disk-bottom {
     flex-direction: column;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item {
   width: 50%;
   padding: 7rem 1rem 0;
@@ -494,7 +436,6 @@ header .disk-bottom {
   gap: 20px;
   position: relative;
 }
-
 @media (max-width: 1100px) {
   .aside .aside__wrapper .aside__wrapper-item {
     width: 80%;
@@ -504,7 +445,6 @@ header .disk-bottom {
     justify-content: space-around;
   }
 }
-
 @media (max-width: 400px) {
   .aside .aside__wrapper .aside__wrapper-item {
     width: 90%;
@@ -514,12 +454,10 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .item {
   margin: auto;
   display: block;
 }
-
 .aside .aside__wrapper .aside__wrapper-item .item .sapan {
   border-bottom: 4px solid #F67E7E;
   padding: 3rem;
@@ -528,7 +466,6 @@ header .disk-bottom {
   top: -70px;
   left: 40px;
 }
-
 .aside .aside__wrapper .aside__wrapper-item .item h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
@@ -538,21 +475,18 @@ header .disk-bottom {
   font-size: 55px;
   font-weight: bold;
 }
-
 @media (max-width: 1100px) {
   .aside .aside__wrapper .aside__wrapper-item .item h1 {
     width: 90%;
     font-size: 50px;
   }
 }
-
 @media (max-width: 800px) {
   .aside .aside__wrapper .aside__wrapper-item .item h1 {
     width: 100%;
     font-size: 40px;
   }
 }
-
 @media (max-width: 580px) {
   .aside .aside__wrapper .aside__wrapper-item .item h1 {
     width: 100%;
@@ -560,7 +494,6 @@ header .disk-bottom {
     padding: 0 0 0 0;
   }
 }
-
 @media (max-width: 400px) {
   .aside .aside__wrapper .aside__wrapper-item .item h1 {
     width: 80%;
@@ -570,7 +503,6 @@ header .disk-bottom {
     letter-spacing: 0px;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 {
   max-width: 500px;
   min-height: 100px;
@@ -579,7 +511,6 @@ header .disk-bottom {
   padding: 0 0 0 3rem;
   gap: 30px;
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 {
     width: 100%;
@@ -588,7 +519,6 @@ header .disk-bottom {
     flex-wrap: wrap;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .icon {
   width: 70px;
   text-align: center;
@@ -596,14 +526,12 @@ header .disk-bottom {
   background-size: contain;
   background-image: url(/crs/images/icon.png);
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .icon {
     width: 27%;
     padding: 1rem;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .icon-gear {
   width: 70px;
   text-align: center;
@@ -611,14 +539,12 @@ header .disk-bottom {
   background-size: contain;
   background-image: url(/crs/images/icon-gear.png);
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .icon-gear {
     width: 27%;
     padding: 1rem;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .icon-start {
   width: 70px;
   text-align: center;
@@ -626,26 +552,22 @@ header .disk-bottom {
   background-size: contain;
   background-image: url(/crs/images/icon-stat.png);
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .icon-start {
     width: 27%;
     padding: 1rem;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .text {
   width: 350px;
   text-align: start;
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .text {
     width: 60%;
     padding: 0;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .text h1 {
   font-size: 23px;
   color: #F67E7E;
@@ -653,7 +575,6 @@ header .disk-bottom {
   font-weight: bold;
   letter-spacing: 1px;
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .text h1 {
     width: 100%;
@@ -662,19 +583,16 @@ header .disk-bottom {
     padding: 0.5rem 0 0.4rem;
   }
 }
-
 .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .text p {
   font-size: 14px;
   color: #79C8C7;
 }
-
 @media (max-width: 660px) {
   .aside .aside__wrapper .aside__wrapper-item .aside__wrapper-item11 .text p {
     width: 100%;
     font-size: 14px;
   }
 }
-
 .aside .group-8 {
   width: 90px;
   padding: 7rem 0 7rem 4rem;
@@ -685,7 +603,6 @@ header .disk-bottom {
   top: 327px;
   right: 0;
 }
-
 @media (max-width: 1100px) {
   .aside .group-8 {
     background-size: cover;
@@ -694,7 +611,6 @@ header .disk-bottom {
     right: 0;
   }
 }
-
 @media (max-width: 660px) {
   .aside .group-8 {
     background-size: contain;
@@ -705,7 +621,6 @@ header .disk-bottom {
     padding: 5rem 0 5rem 1rem;
   }
 }
-
 @media (max-width: 400px) {
   .aside .group-8 {
     background-size: contain;
@@ -725,7 +640,6 @@ header .disk-bottom {
   background-color: #004047;
   position: relative;
 }
-
 .section .deliver {
   width: 100px;
   background-image: url(/crs/images/deliver.png);
@@ -735,7 +649,6 @@ header .disk-bottom {
   top: 0;
   left: 0;
 }
-
 .section .section__wrapper {
   max-width: 1200px;
   margin: auto;
@@ -746,7 +659,6 @@ header .disk-bottom {
   flex-direction: column;
   gap: 20px;
 }
-
 .section .section__wrapper .section__wrapper-item {
   width: 98%;
   margin: auto;
@@ -756,7 +668,6 @@ header .disk-bottom {
   flex-wrap: wrap;
   text-align: center;
 }
-
 @media (max-width: 950px) {
   .section .section__wrapper .section__wrapper-item {
     width: 100%;
@@ -768,7 +679,6 @@ header .disk-bottom {
     text-align: center;
   }
 }
-
 .section .section__wrapper .section__wrapper-item h1 {
   font-size: 55px;
   letter-spacing: 2px;
@@ -777,26 +687,22 @@ header .disk-bottom {
   font-weight: 700;
   color: white;
 }
-
 @media (max-width: 950px) {
   .section .section__wrapper .section__wrapper-item h1 {
     font-size: 54px;
     padding: 3rem 1rem 0rem;
   }
 }
-
 @media (max-width: 700px) {
   .section .section__wrapper .section__wrapper-item h1 {
     font-size: 40px;
   }
 }
-
 @media (max-width: 500px) {
   .section .section__wrapper .section__wrapper-item h1 {
     font-size: 30px;
   }
 }
-
 @media (max-width: 400px) {
   .section .section__wrapper .section__wrapper-item h1 {
     text-align: center;
@@ -804,11 +710,9 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .section .section__wrapper .section__wrapper-item h1 .span {
   color: #79C8C7;
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item {
   width: 31%;
   min-height: 450px;
@@ -819,7 +723,6 @@ header .disk-bottom {
   padding: 0 0.5rem 1rem;
   background-position-x: center;
 }
-
 @media (max-width: 950px) {
   .section .section__wrapper .section__wrapper-item .wrapper-item {
     width: 70%;
@@ -833,7 +736,6 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 @media (max-width: 400px) {
   .section .section__wrapper .section__wrapper-item .wrapper-item {
     width: 100%;
@@ -845,7 +747,6 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .quote {
   width: 100px;
   padding: 2rem;
@@ -855,19 +756,16 @@ header .disk-bottom {
   margin: auto;
   text-align: center;
 }
-
 @media (max-width: 950px) {
   .section .section__wrapper .section__wrapper-item .wrapper-item .quote {
     padding: 2rem;
   }
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .leter {
   width: 100%;
   text-align: center;
   margin: -1.5rem 0 0 0;
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .leter h4 {
   font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -876,7 +774,6 @@ header .disk-bottom {
   padding: 0 1rem 0;
   color: white;
 }
-
 @media (max-width: 800px) {
   .section .section__wrapper .section__wrapper-item .wrapper-item .leter h4 {
     width: 100%;
@@ -884,7 +781,6 @@ header .disk-bottom {
     padding: 0;
   }
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .leter h2 {
   font-size: 27px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -894,7 +790,6 @@ header .disk-bottom {
   letter-spacing: 1px;
   padding: 1.8rem 0 0.3rem;
 }
-
 @media (max-width: 800px) {
   .section .section__wrapper .section__wrapper-item .wrapper-item .leter h2 {
     font-size: 25px;
@@ -902,7 +797,6 @@ header .disk-bottom {
     padding: 1rem 0 0.2rem;
   }
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .leter h3 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
@@ -911,7 +805,6 @@ header .disk-bottom {
   color: white;
   letter-spacing: 1px;
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .kady {
   width: 70px;
   padding: 2rem 0.7rem;
@@ -921,7 +814,6 @@ header .disk-bottom {
   background-position-x: center;
   margin: 2.1rem 8rem;
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .aiysha {
   width: 70px;
   padding: 2rem 0.7rem;
@@ -931,7 +823,6 @@ header .disk-bottom {
   background-position-x: center;
   margin: 2.1rem 8rem;
 }
-
 .section .section__wrapper .section__wrapper-item .wrapper-item .arthur {
   width: 70px;
   padding: 2rem 0.7rem;
@@ -941,7 +832,6 @@ header .disk-bottom {
   background-position-x: center;
   margin: 2.2rem 8.2rem;
 }
-
 .section .group {
   width: 100px;
   background-image: url(/crs/images/Group.png);
@@ -953,7 +843,6 @@ header .disk-bottom {
   bottom: 0;
   right: 0;
 }
-
 @media (max-width: 600px) {
   .section .group {
     padding: 2.5rem 4.9rem;
@@ -968,7 +857,6 @@ header .disk-bottom {
   background-color: #F67E7E;
   position: relative;
 }
-
 @media (max-width: 560px) {
   .main {
     min-height: 230px;
@@ -977,13 +865,11 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 @media (max-width: 390px) {
   .main {
     min-height: 200px;
   }
 }
-
 .main .main__wrapper {
   max-width: 1200px;
   padding: 1rem 0 0 4rem;
@@ -993,7 +879,6 @@ header .disk-bottom {
   justify-content: space-around;
   margin: auto;
 }
-
 @media (max-width: 800px) {
   .main .main__wrapper {
     display: flex;
@@ -1003,13 +888,11 @@ header .disk-bottom {
     align-items: center;
   }
 }
-
 .main .main__wrapper .main__wrapper-item {
   width: 50%;
   margin: auto;
   text-align: center;
 }
-
 @media (max-width: 800px) {
   .main .main__wrapper .main__wrapper-item {
     width: 100%;
@@ -1018,7 +901,6 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .main .main__wrapper .main__wrapper-item h1 {
   font-size: 50px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -1026,13 +908,11 @@ header .disk-bottom {
   letter-spacing: 2px;
   color: #012F34;
 }
-
 @media (max-width: 880px) {
   .main .main__wrapper .main__wrapper-item h1 {
     font-size: 40px;
   }
 }
-
 @media (max-width: 400px) {
   .main .main__wrapper .main__wrapper-item h1 {
     font-size: 30px;
@@ -1041,7 +921,6 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .main .main__wrapper .main__wrapper-item .bttn {
   padding: 0.4rem 3rem;
   background: none;
@@ -1055,14 +934,12 @@ header .disk-bottom {
   color: #012F34;
   transition-duration: 0.5s;
 }
-
 @media (max-width: 400px) {
   .main .main__wrapper .main__wrapper-item .bttn {
     font-size: 21px;
     padding: 0.3rem 2.5rem;
   }
 }
-
 .main .main__wrapper .main__wrapper-item .bttn:hover {
   background-color: #012F34;
   transition-duration: 0.5s;
@@ -1070,7 +947,6 @@ header .disk-bottom {
   color: #F67E7E;
   cursor: pointer;
 }
-
 .main .mannn {
   width: 100px;
   background-image: url(/crs/images/mannn.png);
@@ -1082,13 +958,11 @@ header .disk-bottom {
   left: 0;
   bottom: 0;
 }
-
 @media (max-width: 470px) {
   .main .mannn {
     padding: 3rem 4rem;
   }
 }
-
 @media (max-width: 390px) {
   .main .mannn {
     padding: 2rem 3rem;
@@ -1101,14 +975,12 @@ header .disk-bottom {
   margin: auto;
   background-color: #002529;
 }
-
 .footer .footer__wrapper {
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper {
     width: 100%;
@@ -1121,14 +993,12 @@ header .disk-bottom {
     flex-direction: column;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item {
   width: 50%;
   padding: 0.2rem 2rem;
   display: flex;
   flex-wrap: wrap;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item {
     width: 100%;
@@ -1140,7 +1010,6 @@ header .disk-bottom {
     flex-direction: column;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card {
   width: 50%;
   padding: 1.5rem 1rem 0 0;
@@ -1148,14 +1017,12 @@ header .disk-bottom {
   justify-content: center;
   flex-direction: column;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card {
     padding: 1rem 0 0;
     gap: 10px;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .myteam {
   width: 100px;
   padding: 1.5rem 5.5rem;
@@ -1163,18 +1030,15 @@ header .disk-bottom {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write {
   width: 200px;
   padding: 1rem 1rem 1rem 0;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write {
     padding: 0;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write a {
   text-decoration: none;
   padding: 0 1rem 0 0;
@@ -1186,12 +1050,10 @@ header .disk-bottom {
   text-align: left;
   transition-duration: 0.5s;
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card .write a:hover {
   transition-duration: 0.5s;
   color: #F67E7E;
 }
-
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card p {
   color: #cfcfcf;
   padding: 0 4rem 0 0;
@@ -1200,14 +1062,12 @@ header .disk-bottom {
   letter-spacing: 0.1px;
   text-align: start;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-card p {
     text-align: start;
     padding: 0;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm {
   width: 50%;
   justify-content: center;
@@ -1219,7 +1079,6 @@ header .disk-bottom {
   flex-direction: column;
   text-align: right;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-itemm {
     display: flex;
@@ -1229,13 +1088,11 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm .form {
   width: 90%;
   justify-content: right;
   text-align: right;
 }
-
 @media (max-width: 880px) {
   .footer .footer__wrapper .footer__wrapper-itemm .form {
     width: 100%;
@@ -1244,25 +1101,20 @@ header .disk-bottom {
     justify-content: center;
   }
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm i {
   font-size: 24px;
   padding: 0 0.3rem;
   transition-duration: 0.4s;
   color: white;
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm i:hover {
   color: #F67E7E;
   transition-duration: 0.2s;
 }
-
 .footer .footer__wrapper .footer__wrapper-itemm p {
   font-size: 17px;
   color: rgb(192, 192, 192);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
