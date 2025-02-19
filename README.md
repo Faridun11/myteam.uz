@@ -1,6 +1,6 @@
-# MyTeam-Website
+# 🌐 MyTeam-Website
 
-This project is a Frontend design version of the "MyTeam Website" website. The site provides users with the opportunity to find the best team, get information about the company and contact them.
+This project is a Frontend design version of the "🌐MyTeam Website" website. The site provides users with the opportunity to find the best team, get information about the company and contact them.
 
 ---
 
